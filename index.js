@@ -11,13 +11,13 @@ $(document).ready(function () {
             var html = "";
             for (var y = 0; y < send.length; y++) {
                 data[y];
-                var id = send[y].id_profissional;
-                var nome = send[y].nome_profissional;
-                var login = send[y].login;
+                var id = send[y].id;
+                var nome = send[y].nome;
+                var email = send[y].email;
 
                 html += "<label>ID: " + id + "</label><br>";
                 html += "<label>NOME: " + nome + "</label><br>";
-                html += "<label>LOGIN: " + login + "</label><br>";
+                html += "<label>LOGIN: " + email + "</label><br>";
                 html += "----------------------------------------- <br>";
             }
             var popula = document.querySelector("#popula");
