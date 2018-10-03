@@ -17,7 +17,7 @@ $(document).ready(function () {
 
                 html += "<label>ID: " + id + "</label><br>";
                 html += "<label>NOME: " + nome + "</label><br>";
-                html += "<label>LOGIN: " + email + "</label><br>";
+                html += "<label>EMAIL: " + email + "</label><br>";
                 html += "----------------------------------------- <br>";
             }
             var popula = document.querySelector("#popula");
