@@ -11,7 +11,6 @@ $(document).ready(function () {
             var html = "";
             for (var y = 0; y < send.length; y++) {
                 data[y];
-                console.log(send[y]);
                 var id = send[y].id_profissional;
                 var nome = send[y].nome_profissional;
                 var login = send[y].login;
